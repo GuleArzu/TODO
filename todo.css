@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    min-width: 250px;
+    background-color: #eeeee4;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 80%;
+    height: 150px;
+    background-color: grey;
+    text-align: center;
+    margin-left: 10%;
+}
+
+h1 {
+    color: white;
+    padding-top: 3%;
+}
+
+input {
+    width: 60%;
+    height: 35px;
+    border: none;
+
+    margin: 0;
+
+}
+
+button {
+    background: lightgrey;
+    padding: 10px;
+
+    margin: 0px;
+    border: none;
+    width: 17%;
+    height: 35px;
+    color: gray;
+
+}
+
+button:hover {
+    background-color: #bbb;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+ul li {
+    width: 80%;
+    height: 35px;
+    cursor: pointer;
+    position: relative;
+
+    padding: 0px 0px 0px 20px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    margin-left: 10%;
+    margin-top: 0;
+    padding-top: 10px;
+
+}
+
+
+
+ul li:nth-child(odd) {
+
+    background: #f9f9f9;
+}
+
+ul li:hover {
+    background: #ddd;
+
+}
+
+.close {
+    width: 5%;
+    height: 20px;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+
+
+}
+
+
+.edit {
+    float: right;
+    text-align: center;
+    cursor: pointer;
+    padding-right: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+}
